@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BtnLiquidGlassComponent } from 'src/components/btn-liquid-glass/btn-liquid-glass.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BtnLiquidGlassComponent
   ],
   imports: [
     BrowserModule,
